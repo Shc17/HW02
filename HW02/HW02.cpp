@@ -15,7 +15,7 @@ public:
 class dog : public Animal 
 {
 public:
-    void makesound() 
+    void makesound() override
     {
         cout << "Dog: Woof! Woof!" << endl;
     }
@@ -25,7 +25,7 @@ public:
 class cat : public Animal 
 {
 public:
-    void makesound() 
+    void makesound() override
     {
         cout << "Cat: Meow! Meow!" << endl;
     }
@@ -35,7 +35,7 @@ public:
 class cow : public Animal 
 {
 public:
-    void makesound() 
+    void makesound() override
     {
         cout << "cow: ummaaa~~" << endl;
     }
