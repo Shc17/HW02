@@ -20,7 +20,8 @@ public:
         cout << "Dog: Woof! Woof!" << endl;
     }
 };
- // 파생 클래스
+ 
+// 파생 클래스
 class cat : public Animal 
 {
 public:
@@ -29,7 +30,8 @@ public:
         cout << "Cat: Meow! Meow!" << endl;
     }
 };
- // 파생 클래스
+ 
+// 파생 클래스
 class cow : public Animal 
 {
 public:
